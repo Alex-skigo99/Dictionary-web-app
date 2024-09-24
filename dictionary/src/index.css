@@ -1,0 +1,72 @@
+@font-face {
+  font-family: 'Inconsolata';
+  src: url('./assets/fonts/inconsolata/Inconsolata-VariableFont_wdth.ttf');
+  font-weight: 100 900;
+  font-stretch: 75% 100%;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('./assets/fonts/inter/Inter-VariableFont_slnt_wght.ttf');
+  font-weight: 100 900;
+  font-stretch: 75% 100%;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lora';
+  src: url('./assets/fonts/lora/Lora-VariableFont_wght.ttf');
+  font-weight: 100 900;
+  font-stretch: 75% 100%;
+  font-style: normal;
+}
+
+:root {
+  --primary-color: #b92fc0;
+  --secondary-color: #dca1e5;
+  --background-color: #fffcff;
+  --background-secondary-color: #eeedee;
+  --text-color: #333;
+  --text-secondary-color: #c1bfbf;
+  --primary-font: 'Lora', serif;
+}
+
+.dark-theme {
+  --primary-color: #b92fc0;
+  --secondary-color: #dca1e5;
+  --background-color: #060406;
+  --background-secondary-color: #737273;
+  --text-color: #fef9ff;
+  --text-secondary-color: #c1bfbf;
+}
+
+.light-theme {
+  --primary-color: #b92fc0;
+  --secondary-color: #dca1e5;
+  --background-color: #fffcff;
+  --background-secondary-color: #eeedee;
+  --text-color: #333;
+  --text-secondary-color: #c1bfbf;
+}
+
+
+body {
+  margin: 0 auto;
+  max-width: 800px;
+  background-color: var(--background-color);
+  font-family: var(--primary-font);
+  color: var(--text-color);
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
+  /* font-family: 'Inter', sans-serif; */
+  /* font-family: 'Lora', serif; */
+  /* font-family: 'Inconsolata', monospace; */
+}
+
+.primary {
+  color: var(--primary-color);
+}
